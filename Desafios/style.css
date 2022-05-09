@@ -1,0 +1,94 @@
+* {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+.body {
+    background-color: #e7e416;
+}
+
+.main {
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+.input-texto {
+    margin-top: 50px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border: #a10303;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.mensagem {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 90px;
+    height: 400px;
+    border-style: solid;
+    background-image: url("/Imagens/texto.png");
+    background-position: 35%;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: 110%;
+    background-repeat: no-repeat;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 4px;
+    border-color: #a10303;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.encriptar {
+    background-color: rgb(180, 5, 5);
+    color: white;
+    border: #a1030300;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.desencriptar {
+    margin-left: 30px;
+    border: #a10303;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.informacao {
+    font-size: 15px;
+    color: #a10303;
+}
+
+.js-textareacopybtn {
+    background-color: rgb(180, 5, 5);
+    color: #F3F5FC;
+    margin-left: 215px;
+    border: #a10303;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.footer {
+    display: flex;
+    margin-left: 8%;
+    align-items: center;
+    margin-top: -15px;
+}
+  
+.footer  span{
+    margin-left: -50px;
+    margin-top: 250px;
+    display: inline-block;
+    font-size: 22px;
+    font-style: italic;
+    color: #cc3535;
+}
+
